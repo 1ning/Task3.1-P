@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/congratulations"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="YOUR SCORE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mark"
+        android:layout_width="78dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+
+ />
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="TAKE NEW QUIZS" />
+
+    <Button
+        android:id="@+id/finsh"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="FINISH" />
+</LinearLayout>
