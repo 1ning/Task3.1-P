@@ -33,6 +33,7 @@ public class MainActivity7 extends AppCompatActivity {
                 intent6.putExtra("quantity",quantity1);
                 intent6.putExtra("name",name);
                 startActivity(intent6);
+                finish();
             }
         });
 
